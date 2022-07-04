@@ -1,0 +1,17 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #081240 !important;
+    color: white;
+    min-width: 220px
+}
+.MuiList-root, .MuiListSubheader-root {
+    background-color: #081240 !important;
+    color: white !important;
+
+}
+
+.css-9mgopn-MuiDivider-root {
+    border-color: rgba(255, 255, 255, 0.12) !important;
+}

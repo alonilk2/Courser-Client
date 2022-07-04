@@ -1,0 +1,90 @@
+body 
+{
+    background: #373B44;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: block;
+}
+
+#password0, #password, #password1 
+{
+    height: auto;
+    width: 25vw;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+}
+
+#first_name, #last_name, #phonenumber, #email1, #country, #city 
+{
+	height: auto;
+    width: auto;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+    margin: 0% 8% 2% 8%;
+}
+.input-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#main-section 
+{
+    text-align: center;
+    height: auto;
+    width: auto;
+    background-color: white;
+    padding: 25px;
+    margin: 10vh 10vw 10vh 10vw;
+    box-shadow: 0px 0px 10px 0px #000;
+    border-radius: 25px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Calibri;
+}
+
+.content-section 
+{
+    float: left;
+    width: auto;
+    margin: 0% 0% 3% 0%;
+}
+
+.updatepass-section 
+{
+    float: center;
+    display: flex;
+	justify-content: center;
+    width: auto;
+    text-align: left;
+}
+
+button 
+{
+    background-color: #0f0761;
+    color: white;
+	font-size: 25px;
+    font-weight: 400;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: Calibri;
+    width: 100%;
+    margin: auto;
+    border-radius: 25px;
+}
+
+
+.pass-col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,30 @@
+.nav-link 
+{
+    border-style: none;
+    background-color: white;
+}
+
+.navbar-light 
+{
+    background-color: white;
+}
+
+.navbar-parent
+{
+	max-height: 10vh;
+}
+
+.navbar-brand
+{
+	display: flex;
+	align-items: flex-start;
+ 	max-width: 10%;
+}
+
+.logoc
+{
+	height: auto;
+	width: 100%;
+    margin-left: 5%;
+	
+}

@@ -1,0 +1,50 @@
+body 
+{
+    background: #373B44;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #78acff, #4079ff);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #78acff, #4079ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: block;
+}
+
+.home-container{
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.datagrid-container {
+    height: 100%;
+    margin: 5% 20%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.MuiDataGrid-root {
+    border: unset !important;
+}
+
+.course-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.dropzone-container {
+    border: 3px dashed rgba(0, 0, 0, 0.3);
+}
+
+.MuiListSubheader-root {
+    font-size: 1.5rem !important;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .course-container {
+      flex-direction: column !important;
+    }
+    .datagrid-container {
+        margin: 0%;
+    }
+  }

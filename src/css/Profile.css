@@ -1,0 +1,42 @@
+.avatar 
+{
+	width: 50px;
+	height: 50px;
+	margin-right: 9px;
+    margin-left: 5px;
+}
+
+.user-instance 
+{
+	display: flex;
+} 
+
+.btn
+{
+    border-style: solid;
+    width: auto;
+    margin-right: 6px;
+    margin-left: 6px;
+    background-color: #009aff;
+    border-color: #009aff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.newDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.pass-col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

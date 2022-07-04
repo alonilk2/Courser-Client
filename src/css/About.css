@@ -1,0 +1,70 @@
+body 
+{
+    background: #373B44;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: block;
+}
+
+#AboutContainer 
+{
+	float: center;
+}
+
+#title
+{
+	float: center;
+    font-family: Calibri;
+    font-size: 25px;
+    color: #0f0761;
+}
+
+#subTitle
+{
+    float: center;
+    color: black
+}
+
+#About
+{
+    text-align: center;
+    height: auto;
+    width: 40%;
+    background-color: white;
+    padding: 25px;
+    position: fixed;
+    top: 25%;
+    box-shadow: 0px 0px 10px 0px #000;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+button 
+{
+    background-color: #0f0761;
+    color: white;
+	font-size: 25px;
+    font-weight: 400;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: Calibri;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.facebook-login-btn
+{
+    background-color: darkslateblue;
+}
+
+.Twitter-login-btn
+{
+	background-color: #4267B2;
+}
+
+.Telegram-login-btn
+{
+	background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
